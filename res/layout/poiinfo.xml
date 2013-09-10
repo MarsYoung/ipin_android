@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dp="http://schemas.android.com/apk/res/com.mishow.ipin_android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:padding="8.0dip" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/home_button_tuan" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="2.0dip"
+            android:paddingTop="8.0dip" >
+
+            <ImageView
+                android:id="@+id/stars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/star50" >
+            </ImageView>
+
+            <LinearLayout
+                android:id="@+id/tex2_lay1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text2_renjun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:singleLine="true"
+                    android:text="人均￥"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@+id/text2_renjun_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:singleLine="true"
+                    android:text="100"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text2_lay2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text2_shop_score1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:singleLine="true"
+                    android:text="人数"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff999999"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@+id/text2_shop_score1_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:singleLine="true"
+                    android:text="27"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_border"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_address_big" />
+
+        <TextView
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:layout_weight="1.0"
+            android:maxLines="2"
+            android:paddingRight="6.0dip"
+            android:text="大悦城溜冰场"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true"
+            android:paddingRight="6.0dip"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_border"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_phone_big" />
+
+        <TextView
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:layout_weight="1.0"
+            android:maxLines="2"
+            android:paddingRight="6.0dip"
+            android:text="15222480346"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true"
+            android:paddingRight="6.0dip"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_background"
+        android:gravity="center_vertical"
+        android:paddingBottom="1.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="1.0dip"
+        android:text="事件介绍"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ff000000"
+        android:textSize="16.0sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8.0dip" >
+
+        <TextView
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip"
+            android:layout_weight="1.0"
+            android:lineSpacingMultiplier="1.3"
+            android:text="1.吃重庆小天鹅 2.看电影 3.溜冰 4.逛街 "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/deep_gray"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true"
+            android:paddingRight="6.0dip"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loadingbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="10dip"
+            android:layout_height="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="载入中..."
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/serverdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_border"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:minHeight="?android:listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:paddingBottom="3.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="3.0dip" >
+
+        <TextView
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingBottom="1.0dip"
+            android:paddingTop="1.0dip"
+            android:text="参与人员"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="2.0dip"
+        android:layout_height="10.0dip" />
+
+</LinearLayout>

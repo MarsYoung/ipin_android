@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ipin</string>
+   	<string name="action_settings">Settings</string>
+    <!--  <string name="hello_world">Hello world!</string>--> 
+    
+  	<string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="title_activity_return">ReturnActivity</string>
+    
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="opt_automatic">自动登录</string>
+    <string name="login">登 录</string>
+    <string name="opt_hideLogin">隐身登录</string>
+    <string name="opt_silent">静音登录</string>
+    <string name="opt_openVibra">开启振动</string>
+    <string name="opt_acceptGroupMsg">接收群消息</string>
+    <string name="diplaymetrixis">手机分辨率为</string>
+     <string name="getdiplaymetrix">手机分辨率为</string>
+    
+    
+    <!-- 描绘image和button的content -->
+    <string name="imagefun">imagefunction</string>
+	<string name="buttonfun">buttonfunction</string>
+	<string name="searchtext">请输入时间或者地点</string>
+	
+	
+	<!--修改时添加的  -->
+	<string name="aipinnotlonely">爱拼   所以不再孤单</string>
+	<string name="aipinhomepage">爱拼主页</string>
+	<string name="searchipin">拼笑脸</string>
+	<string name="searchresultsize">1314个结果</string>
+	<string name="addmyipin">添加爱拼</string>
+	<string name="ipinplace">全城抓捕</string>
+	<string name="ipinitem">所有爱拼</string>
+	<string name="searchipins">searchipin</string>
+	<string name="ipintitle">相约大悦城</string>
+	<string name="register">注册</string>
+	<string name="resultback">返  回</string>
+	<string name="realname">姓名</string>
+	<string name="inputpasswordtip">输入密码</string>
+	<string name="inputrealnametip">输入姓名必须</string>
+	<string name="phone">手机</string>
+	<string name="fenlei">分类</string>
+	<string name="defaultfenlei">爱逛街</string>
+	<string name="weizhi">位置</string>
+	<string name="inputweizhi">输入位置</string>
+	<string name="addevent">添加Ipin事件</string>
+	<string name="inputcontent">输入内容</string>
+	<string name="cancel">取消</string>
+	
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aroundmeRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    android:background="@drawable/default_bg"
+    android:orientation="vertical" >
+
+        <ImageView
+            android:contentDescription="@string/imagefun"
+            android:id="@+id/searchipinevent"
+            android:layout_width="70.0px"
+            android:layout_height="90.0px"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10.0px"
+            android:src="@drawable/h01" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:layout_marginRight="10.0px"
+            android:ems="10"
+            android:hint="@string/searchtext" >
+        </EditText>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="429dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TableRow>
+        </LinearLayout>
+
+    </RelativeLayout>

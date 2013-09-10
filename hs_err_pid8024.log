@@ -1,0 +1,88 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=8024, tid=4640
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_38-b05
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.13-b02 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000039c000):  JavaThread "Unknown thread" [_thread_in_vm, id=4640, stack(0x0000000001ec0000,0x0000000001fc0000)]
+
+Stack: [0x0000000001ec0000,0x0000000001fc0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000039c000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4640, stack(0x0000000001ec0000,0x0000000001fc0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042f000 	D:\programming\java\bin\javaw.exe
+0x000007fa4cf70000 - 0x000007fa4d130000 	C:\Windows\SYSTEM32\ntdll.dll
+0x000007fa4aef0000 - 0x000007fa4b026000 	C:\Windows\system32\KERNEL32.DLL
+0x000007fa49ef0000 - 0x000007fa49fe3000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fa4adc0000 - 0x000007fa4ae9e000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fa4b7d0000 - 0x000007fa4b91c000 	C:\Windows\system32\USER32.dll
+0x000007fa4ccb0000 - 0x000007fa4cd55000 	C:\Windows\system32\msvcrt.dll
+0x000007fa4aca0000 - 0x000007fa4ace8000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fa4cd80000 - 0x000007fa4cec5000 	C:\Windows\system32\RPCRT4.dll
+0x000007fa4b0f0000 - 0x000007fa4b231000 	C:\Windows\system32\GDI32.dll
+0x000007fa4b920000 - 0x000007fa4b959000 	C:\Windows\system32\IMM32.DLL
+0x000007fa4b2a0000 - 0x000007fa4b3b5000 	C:\Windows\system32\MSCTF.dll
+0x000007fa49dd0000 - 0x000007fa49e10000 	C:\Windows\system32\nvinitx.dll
+0x000000000f000000 - 0x000000000f006000 	C:\Program Files\NVIDIA Corporation\CoProcManager\detoured.dll
+0x000007fa47760000 - 0x000007fa477b6000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll
+0x000007fa4aad0000 - 0x000007fa4aca0000 	C:\Windows\system32\SETUPAPI.dll
+0x000007fa4a2e0000 - 0x000007fa4a32f000 	C:\Windows\system32\CFGMGR32.dll
+0x000007fa4a330000 - 0x000007fa4a352000 	C:\Windows\system32\DEVOBJ.dll
+0x000007fa47260000 - 0x000007fa4729d000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll
+0x000000006d8c0000 - 0x000000006e07b000 	D:\programming\java\jre\bin\server\jvm.dll
+0x000007fa47740000 - 0x000007fa47760000 	C:\Windows\SYSTEM32\WINMM.dll
+0x000007fa47180000 - 0x000007fa471b2000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x000000006d830000 - 0x000000006d83e000 	D:\programming\java\jre\bin\verify.dll
+0x000000006d450000 - 0x000000006d477000 	D:\programming\java\jre\bin\java.dll
+0x000000006d880000 - 0x000000006d892000 	D:\programming\java\jre\bin\zip.dll
+0x000007fa4a6e0000 - 0x000007fa4a6e7000 	C:\Windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:D:\programming\androidsdk\platforms\android-17\android.jar 
+java_command: com.mishow.ipin_android.util.IpinURLConnectionUtil
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\programming\java7
+CLASSPATH=D:\programming\java7\lib\tools.jar;JAVA_HOMT\lib\dt.jar
+PATH=D:\programming\java7\bin;D:\programming\maven\apache-maven-3.0.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\programming\svn\bin;D:\programming\mysql\bin;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;D:\programming\nodejs\;D:\programming\php;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Mars\AppData\Roaming\npm
+USERNAME=Mars
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 16591724k(12686796k free), swap 18951020k(13340484k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.13-b02) for windows-amd64 JRE (1.6.0_38-b05), built on Nov 14 2012 00:54:08 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Mon Sep 09 19:01:50 2013
+elapsed time: 0 seconds
+

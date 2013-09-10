@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    android:background="@drawable/default_bg"
+    android:orientation="vertical" >
+
+    <!-- android:layout_gravity="center_horizontal|center_vertical"这句貌似没用啊 -->
+
+    <RelativeLayout
+        android:id="@+id/loginMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="350.0px"
+        android:layout_marginLeft="15.0px"
+        android:layout_marginRight="15.0px"
+        android:layout_marginTop="200.0px"
+        android:layout_weight="0.59"
+        android:background="@drawable/login_back"
+        android:paddingBottom="10.0px"
+        android:paddingTop="21.0px" >
+
+        <ImageView
+            android:id="@+id/faceImg"
+            android:layout_width="110.0px"
+            android:layout_height="150.0px"
+            android:layout_alignBottom="@+id/login_edit_pwd"
+            android:background="@drawable/login_head"
+            android:contentDescription="@string/imagefun" />
+
+        <EditText
+            android:id="@+id/login_edit_account"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5.0px"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_toRightOf="@+id/faceImg"
+            android:background="@drawable/qq_edit_login"
+            android:hint="@string/strInputAccHint"
+            android:maxLength="10"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/login_edit_account"
+            android:layout_alignLeft="@+id/login_edit_account"
+            android:layout_alignTop="@+id/login_edit_account"
+            android:layout_marginRight="15.0sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="@string/strAccInputLabel"
+            android:textColor="#ff3f3f3f"
+            android:textSize="16.0dip" />
+
+        <ImageButton
+            android:id="@+id/selectuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/login_edit_account"
+            android:layout_alignRight="@+id/login_edit_account"
+            android:layout_alignTop="@+id/login_edit_account"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/more_select"
+            android:contentDescription="@string/imagefun" />
+
+        <EditText
+            android:id="@+id/login_edit_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/login_edit_account"
+            android:layout_alignRight="@+id/login_edit_account"
+            android:layout_below="@+id/login_edit_account"
+            android:layout_marginRight="1.0dip"
+            android:background="@drawable/qq_edit_login"
+            android:hint="@string/inputpasswordtip"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/login_edit_pwd"
+            android:layout_alignRight="@+id/TextView01"
+            android:layout_alignTop="@+id/login_edit_pwd"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="@string/strPswInputLabel"
+            android:textColor="#ff3f3f3f"
+            android:textSize="16.0dip" />
+
+        <EditText
+            android:id="@+id/register_edit_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/login_edit_pwd"
+            android:layout_alignRight="@+id/login_edit_pwd"
+            android:layout_below="@+id/faceImg"
+            android:background="@drawable/qq_edit_login"
+            android:ems="10"
+            android:hint="@string/inputpasswordtip"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/register_edit_pwd"
+            android:layout_alignLeft="@+id/register_edit_pwd"
+            android:layout_below="@+id/login_edit_pwd"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="@string/strPswInputLabel"
+            android:textColor="#ff3f3f3f"
+            android:textSize="16.0dip" />
+
+        <Button
+            android:id="@+id/register_btn_register"
+            android:layout_width="130.0px"
+            android:layout_height="60.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/login_edit_account"
+            android:layout_marginBottom="48dp"
+            android:text="@string/register"
+            android:textSize="15.0sp" />
+
+        <Button
+            android:id="@+id/return_btn_return"
+            android:layout_width="130.0px"
+            android:layout_height="60.0px"
+            android:layout_alignBaseline="@+id/register_btn_register"
+            android:layout_alignBottom="@+id/register_btn_register"
+            android:layout_centerHorizontal="true"
+            android:text="@string/resultback"
+            android:textSize="15.0sp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/realname"
+            android:layout_alignRight="@+id/register_edit_pwd"
+            android:layout_below="@+id/realname"
+            android:background="@drawable/qq_edit_login"
+            android:ems="10"
+            android:hint="@string/phone"
+            android:maxLength="11"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/phone"
+            android:layout_alignLeft="@+id/phone"
+            android:layout_below="@+id/realname"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="@string/phone"
+            android:textColor="#ff3f3f3f"
+            android:textSize="16.0dip" />
+
+        <EditText
+            android:id="@+id/realname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/register_edit_pwd"
+            android:layout_alignRight="@+id/register_btn_register"
+            android:layout_below="@+id/register_edit_pwd"
+            android:background="@drawable/qq_edit_login"
+            android:ems="10"
+            android:hint="@string/inputrealnametip"
+            android:maxLength="10"
+            android:paddingLeft="45.0sp"
+            android:saveEnabled="true" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/realname"
+            android:layout_alignLeft="@+id/realname"
+            android:layout_below="@+id/register_edit_pwd"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="@string/realname"
+            android:textColor="#ff3f3f3f"
+            android:textSize="16.0dip" />
+
+    </RelativeLayout>
+
+</LinearLayout>

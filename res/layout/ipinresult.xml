@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    android:background="@drawable/default_bg"
+    android:orientation="vertical" >
+
+    <!-- android:layout_gravity="center_horizontal|center_vertical"这句貌似没用啊 -->
+
+    <RelativeLayout
+        android:id="@+id/loginMiddle"
+        android:layout_width="296dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="15.0px"
+        android:layout_marginRight="15.0px"
+        android:layout_marginTop="200.0px"
+        android:layout_weight="0.06"
+        android:background="@drawable/login_back"
+        android:paddingBottom="10.0px"
+        android:paddingTop="21.0px" >
+
+        <Button
+            android:id="@+id/return_btn"
+            android:layout_width="130.0px"
+            android:layout_height="60.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="52dp"
+            android:layout_marginRight="17dp"
+            android:text="@string/resultback"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/resulttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="成功！"
+            android:textColor="@color/titlebackgroundcolor"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
